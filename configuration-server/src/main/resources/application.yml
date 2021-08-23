@@ -1,5 +1,12 @@
 spring:
   application:
     name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ravi-bhu/ecommerce-microservice-configuration
+          clone-on-start: true
+          default-label: main
 server:
   port: 8888
