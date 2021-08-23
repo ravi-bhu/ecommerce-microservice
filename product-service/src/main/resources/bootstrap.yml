@@ -2,3 +2,10 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+    vault:
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: token
+      application-name: product-service
+      # token: put your token here or pass it during runtime
