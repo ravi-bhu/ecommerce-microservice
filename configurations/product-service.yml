@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: # set your mongodb url here mongodb://username:password@localhost:27017/yourDB
+      database: product-service
