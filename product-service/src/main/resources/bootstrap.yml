@@ -8,4 +8,11 @@ spring:
       scheme: http
       authentication: token
       application-name: product-service
-      # token: put your token here or pass it during runtime
+      token: devtoken
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

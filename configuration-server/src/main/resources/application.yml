@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ravi-bhu/ecommerce-microservice-configuration
+          uri: https://github.com/ravi-bhu/microservice-configurations
           clone-on-start: true
           default-label: main
 server:
